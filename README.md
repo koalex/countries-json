@@ -1,4 +1,4 @@
-# Countries
+# Countries JSON
 
 Installation:
 
@@ -10,7 +10,7 @@ npm install countries --save
 Usage example:
 
 ```javascript
-import countriesData from 'countries'; // warning: files size with all locales ~3Mb
+import countriesData from 'countries-json'; // warning: files size with all locales ~3Mb
 
 function getLang () { // browser
     if (navigator.languages !== undefined && navigator.languages.length) {
@@ -34,7 +34,7 @@ function getLang () { // browser
     return navigator.userLanguage || navigator.language || navigator.browserLanguage || navigator.systemLanguage;    
 }
 
-let countries = require('countries/data/' + getLang()); // load countries only for single locale
+let countries = require('countries-json/data/' + getLang()); // load countries only for single locale
 
 console.log( countries );
 
