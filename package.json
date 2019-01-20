@@ -1,5 +1,5 @@
 {
-  "name": "countries",
+  "name": "countries-json",
   "version": "1.0.0",
   "description": "List of all countries with names and ISO 3166-1 codes in all languages in JSON.",
   "main": "index.json",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koalex/countries.git"
+    "url": "git+https://github.com/koalex/countries-json.git"
   },
   "bugs": {
-    "url": "https://github.com/koalex/countries/issues"
+    "url": "https://github.com/koalex/countries-json/issues"
   },
   "keywords": [
     "countries",
@@ -26,5 +26,5 @@
     }
   ],
   "license": "SEE LICENSE IN LICENSE.md",
-  "homepage": "https://github.com/koalex/countries#readme"
+  "homepage": "https://github.com/koalex/countries-json#readme"
 }
